@@ -30,7 +30,6 @@ alias reload='source ~/.bashrc && clear'
 alias s='sudo su -'
 
 alias ssha='eval "$(ssh-agent -s)" && ssh-add'
-alias sshall='eval "$(ssh-agent -s)" && find ~/.ssh/ -type f -exec grep -l "PRIVATE" {} \; | xargs ssh-add &> /dev/null'
 alias ssharm='ssh-agent -k'
 alias sshc='nano ~/.ssh/config'
 
