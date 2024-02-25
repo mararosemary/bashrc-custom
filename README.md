@@ -7,5 +7,5 @@ Custom bash aliases to make using a terminal less aggravating, featuring the mys
 Add to ~/.bashrc:
 
 ```
-source ~/.custom
+source ~/.bashrc-custom/custom.sh
 ```
