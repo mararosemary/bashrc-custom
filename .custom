@@ -41,5 +41,6 @@ alias tls='tmux ls'
 alias u='sudo apt update'
 alias uu='sudo apt update && sudo apt upgrade -y'
 alias word='curl -s https://godsays.xyz/ | xargs -n3'
+alias update_bashrc='cd ~/.bashrc-custom/ && git pull && cd && clear'
 
 ## END CUSTOM ALIASES
