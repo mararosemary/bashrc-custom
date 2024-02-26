@@ -26,7 +26,6 @@ alias net='ss -tulpn'
 alias now='date +"%T"'
 
 alias p='git pull'
-alias reload='source ~/.bashrc && clear'
 alias s='sudo su -'
 
 alias ssha='eval "$(ssh-agent -s)" && ssh-add'
@@ -40,6 +39,5 @@ alias tls='tmux ls'
 alias u='sudo apt update'
 alias uu='sudo apt update && sudo apt upgrade -y'
 alias word='curl -s https://godsays.xyz/ | xargs -n3'
-alias update_bashrc='cd ~/.bashrc-custom/ && git pull && cd && clear'
 
 ## END CUSTOM ALIASES
