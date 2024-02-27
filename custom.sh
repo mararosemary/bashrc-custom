@@ -2,7 +2,7 @@
 alias c='clear'
 alias cc='cd && clear'
 
-alias cm='docker compose up -d'
+alias dcu='docker compose up -d'
 alias dps='docker ps'
 alias dpsa='docker ps -a'
 alias dnls='docker network ls'
