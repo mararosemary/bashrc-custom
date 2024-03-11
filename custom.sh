@@ -1,4 +1,6 @@
 ## START CUSTOM ALIASES
+alias ans='cd /etc/ansible'
+
 alias c='clear'
 alias cc='cd && clear'
 
@@ -25,6 +27,8 @@ alias mount='mount | column -t'
 alias net='ss -tulpn'
 alias now='date +"%T"'
 
+alias ova='read -s VAULTKEY && export VAULTKEY'
+
 alias p='git pull'
 alias s='sudo su -'
 
@@ -38,6 +42,4 @@ alias tls='tmux ls'
 
 alias u='sudo apt update'
 alias uu='sudo apt update && sudo apt upgrade -y'
-alias word='curl -s https://godsays.xyz/ | xargs -n3'
-
 ## END CUSTOM ALIASES
